@@ -1,0 +1,1274 @@
+2021-12-19 09:42:14 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 55 ] -
+                Starting DrugApplication using Java 11.0.11 on LAPTOP-4MVI9LIV with PID 20600 (D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统\target\classes started by A in D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统)
+2021-12-19 09:42:14 [ restartedMain ] ------------------ [ DEBUG ] [ com.javaclimb.drug.DrugApplication : 56 ] -
+                Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-12-19 09:42:14 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 660 ] -
+                No active profile set, falling back to default profiles: default
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.User",So @TableField annotation will not work!
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] -
+                Starting service [Tomcat]
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] -
+                Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring embedded WebApplicationContext
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Billinfo",So @TableField annotation will not work!
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Druginfo",So @TableField annotation will not work!
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Owinfo",So @TableField annotation will not work!
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Problem",So @TableField annotation will not work!
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returngoods",So @TableField annotation will not work!
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returnsupplier",So @TableField annotation will not work!
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Saleinfo",So @TableField annotation will not work!
+2021-12-19 09:42:16 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Supplier",So @TableField annotation will not work!
+2021-12-19 09:42:17 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 09:42:17 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 61 ] -
+                Started DrugApplication in 2.904 seconds (JVM running for 4.529)
+2021-12-19 09:42:30 [ http-nio-8080-exec-1 ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 09:42:30 [ http-nio-8080-exec-1 ] ------------------ [ WARN  ] [ org.apache.catalina.util.SessionIdGeneratorBase : 173 ] -
+                Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [424] milliseconds.
+2021-12-19 09:42:40 [ http-nio-8080-exec-9 ] ------------------ [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 106 ] -
+                {dataSource-1} inited
+2021-12-19 09:42:40 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-19 09:42:40 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-19 09:42:40 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-19 09:43:53 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 09:43:53 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 09:43:53 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 09:43:53 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 09:43:53 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 4
+2021-12-19 11:29:45 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-19 11:29:45 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-19 11:29:45 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-19 11:29:52 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM owinfo 
+2021-12-19 11:29:52 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:29:52 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,type,count,operator,createtime FROM owinfo LIMIT ?,? 
+2021-12-19 11:29:52 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:29:52 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                <==      Total: 2
+2021-12-19 11:29:53 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM problem 
+2021-12-19 11:29:53 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:29:53 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,dprice,reason,createtime FROM problem LIMIT ?,? 
+2021-12-19 11:29:53 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:29:53 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 11:29:53 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:29:53 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:29:53 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:29:53 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:29:53 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 5
+2021-12-19 11:29:55 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 11:29:55 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:29:55 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 11:29:55 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:29:55 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 11:29:56 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM saleinfo 
+2021-12-19 11:29:56 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:29:56 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dnumber,count,total,operator,operatetime FROM saleinfo LIMIT ?,? 
+2021-12-19 11:29:56 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:29:56 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                <==      Total: 2
+2021-12-19 11:29:56 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:29:56 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:29:56 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:29:56 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:29:56 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 5
+2021-12-19 11:29:57 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 11:29:57 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:29:57 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 11:29:57 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:29:57 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 4
+2021-12-19 11:29:57 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returnsupplier 
+2021-12-19 11:29:57 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:29:57 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,sname,buytime,reason,createtime FROM returnsupplier LIMIT ?,? 
+2021-12-19 11:29:57 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:29:57 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 11:55:29 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:29 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:29 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:29 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:29 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:36 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:36 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:36 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:36 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:36 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:40 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:40 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:40 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:40 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:40 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:41 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:41 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:41 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:41 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:41 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:42 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:42 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:42 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:42 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:42 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:43 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:43 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:43 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:43 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:43 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:43 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:43 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:43 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:43 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:43 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:43 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:43 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:43 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:43 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:43 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:44 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:44 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:44 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:44 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:44 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:45 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:45 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:45 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:45 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:45 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:48 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:48 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:48 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:48 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:48 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:50 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:50 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:50 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:50 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:50 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:51 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:51 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:51 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:51 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:51 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:52 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:52 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:52 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:52 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:52 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:55 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:55 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:55 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:55 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:55 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:57 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:57 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:57 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:57 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:57 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:59 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:59 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:59 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:59 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:59 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:55:59 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:55:59 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:55:59 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:55:59 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:55:59 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:56:01 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:56:01 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:56:01 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:56:01 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:56:01 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:56:02 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:56:02 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:56:02 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:56:02 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:56:02 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:56:03 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:56:03 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:56:03 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:56:03 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:56:03 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:56:03 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 11:56:03 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:56:03 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 11:56:03 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 11:56:03 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 11:56:06 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier 
+2021-12-19 11:56:06 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==> Parameters: 
+2021-12-19 11:56:06 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                <==      Total: 3
+2021-12-19 12:49:58 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-19 12:49:58 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-19 12:49:58 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-19 12:50:06 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM owinfo 
+2021-12-19 12:50:06 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:50:06 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,type,count,operator,createtime FROM owinfo LIMIT ?,? 
+2021-12-19 12:50:06 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:50:06 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                <==      Total: 7
+2021-12-19 12:50:13 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:50:13 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:50:13 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:50:13 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:50:13 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:51:43 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 12:51:43 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:51:43 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 12:51:43 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:51:43 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:51:44 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returnsupplier 
+2021-12-19 12:51:44 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:51:44 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,sname,buytime,reason,createtime FROM returnsupplier LIMIT ?,? 
+2021-12-19 12:51:44 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:51:44 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 12:52:13 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 12:52:13 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:52:13 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 12:52:13 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:52:13 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 12:52:14 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:52:14 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:52:14 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:52:14 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:52:14 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:52:14 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM problem 
+2021-12-19 12:52:14 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:52:14 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,dprice,reason,createtime FROM problem LIMIT ?,? 
+2021-12-19 12:52:14 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:52:14 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                <==      Total: 3
+2021-12-19 12:52:39 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:52:39 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:52:39 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:52:39 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:52:39 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:52:41 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:52:41 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:52:41 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:52:41 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:52:41 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:52:42 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:52:42 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:52:42 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:52:42 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:52:42 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:52:47 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM saleinfo 
+2021-12-19 12:52:47 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:52:47 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dnumber,count,total,operator,operatetime FROM saleinfo LIMIT ?,? 
+2021-12-19 12:52:47 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:52:47 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                <==      Total: 3
+2021-12-19 12:53:34 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier 
+2021-12-19 12:53:34 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:53:34 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                <==      Total: 15
+2021-12-19 12:54:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectById : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo WHERE id=? 
+2021-12-19 12:54:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectById : 143 ] -
+                ==> Parameters: 1(Integer)
+2021-12-19 12:54:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectById : 143 ] -
+                <==      Total: 1
+2021-12-19 12:54:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier 
+2021-12-19 12:54:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:54:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                <==      Total: 15
+2021-12-19 12:55:25 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM problem 
+2021-12-19 12:55:25 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:25 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,dprice,reason,createtime FROM problem LIMIT ?,? 
+2021-12-19 12:55:25 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:25 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                <==      Total: 3
+2021-12-19 12:55:26 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:55:26 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:26 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:55:26 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:26 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:55:27 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM owinfo 
+2021-12-19 12:55:27 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:27 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,type,count,operator,createtime FROM owinfo LIMIT ?,? 
+2021-12-19 12:55:27 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:27 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                <==      Total: 7
+2021-12-19 12:55:28 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:55:28 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:28 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:55:28 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:28 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:55:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 12:55:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 12:55:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:55:29 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returnsupplier 
+2021-12-19 12:55:29 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:29 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,sname,buytime,reason,createtime FROM returnsupplier LIMIT ?,? 
+2021-12-19 12:55:29 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:29 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 12:55:30 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM saleinfo 
+2021-12-19 12:55:30 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:30 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dnumber,count,total,operator,operatetime FROM saleinfo LIMIT ?,? 
+2021-12-19 12:55:30 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:30 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                <==      Total: 3
+2021-12-19 12:55:31 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 12:55:31 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:31 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 12:55:31 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:31 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 2
+2021-12-19 12:55:34 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 12:55:34 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:34 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 12:55:34 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:34 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:55:35 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:55:35 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:35 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:55:35 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:35 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:55:36 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returnsupplier 
+2021-12-19 12:55:36 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:36 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,sname,buytime,reason,createtime FROM returnsupplier LIMIT ?,? 
+2021-12-19 12:55:36 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:36 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 12:55:37 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM saleinfo 
+2021-12-19 12:55:37 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:37 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dnumber,count,total,operator,operatetime FROM saleinfo LIMIT ?,? 
+2021-12-19 12:55:37 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:37 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                <==      Total: 3
+2021-12-19 12:55:37 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 12:55:37 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:37 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 12:55:37 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:37 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 2
+2021-12-19 12:55:54 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 12:55:54 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:54 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 12:55:54 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:54 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 2
+2021-12-19 12:55:58 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.deleteById : 143 ] -
+                ==>  Preparing: DELETE FROM returngoods WHERE id=? 
+2021-12-19 12:55:58 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.deleteById : 143 ] -
+                ==> Parameters: 2(Integer)
+2021-12-19 12:55:58 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.deleteById : 143 ] -
+                <==    Updates: 1
+2021-12-19 12:55:58 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 12:55:58 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:55:58 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 12:55:58 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:55:58 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 12:56:18 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 12:56:18 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:56:18 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 12:56:18 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:56:18 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 2
+2021-12-19 12:56:36 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.deleteById : 143 ] -
+                ==>  Preparing: DELETE FROM returngoods WHERE id=? 
+2021-12-19 12:56:36 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.deleteById : 143 ] -
+                ==> Parameters: 3(Integer)
+2021-12-19 12:56:36 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.deleteById : 143 ] -
+                <==    Updates: 1
+2021-12-19 12:56:36 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 12:56:36 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:56:36 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 12:56:36 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:56:36 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 12:57:29 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:57:29 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:57:29 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:57:29 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:57:29 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:57:49 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo WHERE (name LIKE ?) 
+2021-12-19 12:57:49 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: %感冒灵片%(String)
+2021-12-19 12:57:49 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo WHERE (name LIKE ?) LIMIT ?,? 
+2021-12-19 12:57:49 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: %感冒灵片%(String), 0(Long), 10(Long)
+2021-12-19 12:57:49 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 12:58:07 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:58:07 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:58:07 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:58:07 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:58:07 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 12:58:16 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo WHERE (name LIKE ?) 
+2021-12-19 12:58:16 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: %维生素%(String)
+2021-12-19 12:58:16 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo WHERE (name LIKE ?) LIMIT ?,? 
+2021-12-19 12:58:16 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: %维生素%(String), 0(Long), 10(Long)
+2021-12-19 12:58:16 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 4
+2021-12-19 12:58:33 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 12:58:33 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 12:58:33 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 12:58:33 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 12:58:33 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:01:22 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-19 14:01:22 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-19 14:01:22 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-19 14:01:30 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 14:01:30 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:01:30 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 14:01:30 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:01:30 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:01:39 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo WHERE (name LIKE ?) 
+2021-12-19 14:01:39 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: %维生素%(String)
+2021-12-19 14:01:39 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo WHERE (name LIKE ?) LIMIT ?,? 
+2021-12-19 14:01:39 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: %维生素%(String), 0(Long), 10(Long)
+2021-12-19 14:01:39 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 4
+2021-12-19 14:08:23 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 14:08:23 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:08:23 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 14:08:23 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:08:23 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:08:28 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectById : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo WHERE id=? 
+2021-12-19 14:08:28 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectById : 143 ] -
+                ==> Parameters: 10(Integer)
+2021-12-19 14:08:28 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectById : 143 ] -
+                <==      Total: 1
+2021-12-19 14:08:28 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier 
+2021-12-19 14:08:28 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:08:28 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                <==      Total: 15
+2021-12-19 14:18:22 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-19 14:18:22 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-19 14:18:22 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-19 14:18:27 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 14:18:27 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:27 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 14:18:27 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:27 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:18:27 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 14:18:27 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:27 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 14:18:27 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:27 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:18:30 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 14:18:30 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:30 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 14:18:30 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:30 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:18:31 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 14:18:31 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:31 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 14:18:31 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:31 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:18:33 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 14:18:33 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:33 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 14:18:33 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:33 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:18:48 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returnsupplier 
+2021-12-19 14:18:48 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:48 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,sname,buytime,reason,createtime FROM returnsupplier LIMIT ?,? 
+2021-12-19 14:18:48 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:48 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 14:18:50 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM owinfo 
+2021-12-19 14:18:50 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:50 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,type,count,operator,createtime FROM owinfo LIMIT ?,? 
+2021-12-19 14:18:50 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:50 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                <==      Total: 7
+2021-12-19 14:18:51 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM problem 
+2021-12-19 14:18:51 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:51 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,dprice,reason,createtime FROM problem LIMIT ?,? 
+2021-12-19 14:18:51 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:51 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                <==      Total: 3
+2021-12-19 14:18:51 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 14:18:51 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:51 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 14:18:51 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:51 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:18:53 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM saleinfo 
+2021-12-19 14:18:53 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:53 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dnumber,count,total,operator,operatetime FROM saleinfo LIMIT ?,? 
+2021-12-19 14:18:53 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:53 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                <==      Total: 3
+2021-12-19 14:18:54 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 14:18:54 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:54 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 14:18:54 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:18:54 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 14:18:59 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectList : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo 
+2021-12-19 14:18:59 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectList : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:18:59 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectList : 143 ] -
+                <==      Total: 16
+2021-12-19 14:19:41 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 55 ] -
+                Starting DrugApplication using Java 11.0.11 on LAPTOP-4MVI9LIV with PID 21324 (D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统\target\classes started by A in D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统)
+2021-12-19 14:19:41 [ restartedMain ] ------------------ [ DEBUG ] [ com.javaclimb.drug.DrugApplication : 56 ] -
+                Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-12-19 14:19:41 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 660 ] -
+                No active profile set, falling back to default profiles: default
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.User",So @TableField annotation will not work!
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] -
+                Starting service [Tomcat]
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] -
+                Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring embedded WebApplicationContext
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Billinfo",So @TableField annotation will not work!
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Druginfo",So @TableField annotation will not work!
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Owinfo",So @TableField annotation will not work!
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Problem",So @TableField annotation will not work!
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returngoods",So @TableField annotation will not work!
+2021-12-19 14:19:43 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returnsupplier",So @TableField annotation will not work!
+2021-12-19 14:19:44 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Saleinfo",So @TableField annotation will not work!
+2021-12-19 14:19:44 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Supplier",So @TableField annotation will not work!
+2021-12-19 14:19:44 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 14:19:44 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 61 ] -
+                Started DrugApplication in 2.916 seconds (JVM running for 4.264)
+2021-12-19 14:19:55 [ http-nio-8080-exec-1 ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 14:19:55 [ http-nio-8080-exec-1 ] ------------------ [ WARN  ] [ org.apache.catalina.util.SessionIdGeneratorBase : 173 ] -
+                Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [437] milliseconds.
+2021-12-19 14:20:06 [ http-nio-8080-exec-3 ] ------------------ [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 106 ] -
+                {dataSource-1} inited
+2021-12-19 14:20:06 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-19 14:20:06 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-19 14:20:06 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-19 14:20:11 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 14:20:11 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:20:11 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 14:20:11 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:20:11 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:20:12 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returnsupplier 
+2021-12-19 14:20:12 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:20:12 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,sname,buytime,reason,createtime FROM returnsupplier LIMIT ?,? 
+2021-12-19 14:20:12 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:20:12 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 14:20:13 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 14:20:13 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:20:13 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 14:20:13 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:20:13 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:20:14 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM owinfo 
+2021-12-19 14:20:14 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:20:14 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,type,count,operator,createtime FROM owinfo LIMIT ?,? 
+2021-12-19 14:20:14 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:20:14 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                <==      Total: 7
+2021-12-19 14:21:51 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 55 ] -
+                Starting DrugApplication using Java 11.0.11 on LAPTOP-4MVI9LIV with PID 21180 (D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统\target\classes started by A in D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统)
+2021-12-19 14:21:51 [ restartedMain ] ------------------ [ DEBUG ] [ com.javaclimb.drug.DrugApplication : 56 ] -
+                Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-12-19 14:21:51 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 660 ] -
+                No active profile set, falling back to default profiles: default
+2021-12-19 14:21:52 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.User",So @TableField annotation will not work!
+2021-12-19 14:21:52 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 14:21:52 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] -
+                Starting service [Tomcat]
+2021-12-19 14:21:52 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] -
+                Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-19 14:21:52 [ restartedMain ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring embedded WebApplicationContext
+2021-12-19 14:21:52 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Billinfo",So @TableField annotation will not work!
+2021-12-19 14:21:53 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Druginfo",So @TableField annotation will not work!
+2021-12-19 14:21:53 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Owinfo",So @TableField annotation will not work!
+2021-12-19 14:21:53 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Problem",So @TableField annotation will not work!
+2021-12-19 14:21:53 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returngoods",So @TableField annotation will not work!
+2021-12-19 14:21:53 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returnsupplier",So @TableField annotation will not work!
+2021-12-19 14:21:53 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Saleinfo",So @TableField annotation will not work!
+2021-12-19 14:21:53 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Supplier",So @TableField annotation will not work!
+2021-12-19 14:21:53 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 14:21:53 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 61 ] -
+                Started DrugApplication in 2.645 seconds (JVM running for 3.756)
+2021-12-19 14:22:01 [ http-nio-8080-exec-1 ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 14:22:02 [ http-nio-8080-exec-1 ] ------------------ [ WARN  ] [ org.apache.catalina.util.SessionIdGeneratorBase : 173 ] -
+                Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [440] milliseconds.
+2021-12-19 14:22:08 [ http-nio-8080-exec-8 ] ------------------ [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 106 ] -
+                {dataSource-1} inited
+2021-12-19 14:22:08 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-19 14:22:08 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-19 14:22:08 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-19 14:22:15 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.BillinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM billinfo 
+2021-12-19 14:22:15 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.BillinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:22:15 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.BillinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,sname,dname,count,total,buytime FROM billinfo LIMIT ?,? 
+2021-12-19 14:22:15 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.BillinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:22:15 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.BillinfoMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 14:22:16 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 14:22:16 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:22:16 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 14:22:16 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:22:16 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:22:17 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 14:22:17 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:22:17 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 14:22:17 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:22:17 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:22:18 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 14:22:18 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:22:18 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 14:22:18 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:22:18 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 14:22:18 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM saleinfo 
+2021-12-19 14:22:18 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:22:18 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dnumber,count,total,operator,operatetime FROM saleinfo LIMIT ?,? 
+2021-12-19 14:22:18 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:22:18 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                <==      Total: 3
+2021-12-19 14:23:33 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 55 ] -
+                Starting DrugApplication using Java 11.0.11 on LAPTOP-4MVI9LIV with PID 17844 (D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统\target\classes started by A in D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统)
+2021-12-19 14:23:33 [ restartedMain ] ------------------ [ DEBUG ] [ com.javaclimb.drug.DrugApplication : 56 ] -
+                Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-12-19 14:23:33 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 660 ] -
+                No active profile set, falling back to default profiles: default
+2021-12-19 14:23:34 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.User",So @TableField annotation will not work!
+2021-12-19 14:23:34 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 14:23:34 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] -
+                Starting service [Tomcat]
+2021-12-19 14:23:34 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] -
+                Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-19 14:23:34 [ restartedMain ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring embedded WebApplicationContext
+2021-12-19 14:23:34 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Billinfo",So @TableField annotation will not work!
+2021-12-19 14:23:34 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Druginfo",So @TableField annotation will not work!
+2021-12-19 14:23:34 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Owinfo",So @TableField annotation will not work!
+2021-12-19 14:23:34 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Problem",So @TableField annotation will not work!
+2021-12-19 14:23:35 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returngoods",So @TableField annotation will not work!
+2021-12-19 14:23:35 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returnsupplier",So @TableField annotation will not work!
+2021-12-19 14:23:35 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Saleinfo",So @TableField annotation will not work!
+2021-12-19 14:23:35 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Supplier",So @TableField annotation will not work!
+2021-12-19 14:23:35 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 14:23:35 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 61 ] -
+                Started DrugApplication in 2.647 seconds (JVM running for 3.775)
+2021-12-19 14:23:42 [ http-nio-8080-exec-1 ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 14:23:43 [ http-nio-8080-exec-1 ] ------------------ [ WARN  ] [ org.apache.catalina.util.SessionIdGeneratorBase : 173 ] -
+                Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [433] milliseconds.
+2021-12-19 14:23:56 [ http-nio-8080-exec-6 ] ------------------ [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 106 ] -
+                {dataSource-1} inited
+2021-12-19 14:23:56 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-19 14:23:56 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-19 14:23:56 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-19 14:25:01 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 55 ] -
+                Starting DrugApplication using Java 11.0.11 on LAPTOP-4MVI9LIV with PID 23828 (D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统\target\classes started by A in D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统)
+2021-12-19 14:25:01 [ restartedMain ] ------------------ [ DEBUG ] [ com.javaclimb.drug.DrugApplication : 56 ] -
+                Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-12-19 14:25:01 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 660 ] -
+                No active profile set, falling back to default profiles: default
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.User",So @TableField annotation will not work!
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] -
+                Starting service [Tomcat]
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] -
+                Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring embedded WebApplicationContext
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Billinfo",So @TableField annotation will not work!
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Druginfo",So @TableField annotation will not work!
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Owinfo",So @TableField annotation will not work!
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Problem",So @TableField annotation will not work!
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returngoods",So @TableField annotation will not work!
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returnsupplier",So @TableField annotation will not work!
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Saleinfo",So @TableField annotation will not work!
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Supplier",So @TableField annotation will not work!
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Starting ProtocolHandler ["http-nio-8080"]
+2021-12-19 14:25:03 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 61 ] -
+                Started DrugApplication in 2.633 seconds (JVM running for 3.77)
+2021-12-19 14:25:19 [ http-nio-8080-exec-1 ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-19 14:25:19 [ http-nio-8080-exec-1 ] ------------------ [ WARN  ] [ org.apache.catalina.util.SessionIdGeneratorBase : 173 ] -
+                Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [453] milliseconds.
+2021-12-19 14:25:29 [ http-nio-8080-exec-6 ] ------------------ [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 106 ] -
+                {dataSource-1} inited
+2021-12-19 14:25:29 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-19 14:25:29 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zat(String)
+2021-12-19 14:25:29 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 0
+2021-12-19 14:25:39 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-19 14:25:39 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-19 14:25:39 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-19 14:25:46 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM problem 
+2021-12-19 14:25:46 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:25:46 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,dprice,reason,createtime FROM problem LIMIT ?,? 
+2021-12-19 14:25:46 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:25:46 [ http-nio-8080-exec-3 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.ProblemMapper.selectPage : 143 ] -
+                <==      Total: 3
+2021-12-19 14:25:47 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 14:25:47 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:25:47 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 14:25:47 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:25:47 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:25:47 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM owinfo 
+2021-12-19 14:25:47 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:25:47 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,type,count,operator,createtime FROM owinfo LIMIT ?,? 
+2021-12-19 14:25:47 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:25:47 [ http-nio-8080-exec-9 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.OwinfoMapper.selectPage : 143 ] -
+                <==      Total: 7
+2021-12-19 14:25:48 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM saleinfo 
+2021-12-19 14:25:48 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:25:48 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dnumber,count,total,operator,operatetime FROM saleinfo LIMIT ?,? 
+2021-12-19 14:25:48 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:25:48 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SaleinfoMapper.selectPage : 143 ] -
+                <==      Total: 3
+2021-12-19 14:25:48 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returngoods 
+2021-12-19 14:25:48 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:25:48 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,count,reason,total,operatetime FROM returngoods LIMIT ?,? 
+2021-12-19 14:25:48 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:25:48 [ http-nio-8080-exec-4 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturngoodsMapper.selectPage : 143 ] -
+                <==      Total: 1
+2021-12-19 14:25:48 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-19 14:25:48 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:25:48 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-19 14:25:48 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:25:48 [ http-nio-8080-exec-2 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:25:49 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM supplier 
+2021-12-19 14:25:49 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:25:49 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier LIMIT ?,? 
+2021-12-19 14:25:49 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:25:49 [ http-nio-8080-exec-7 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectPage : 143 ] -
+                <==      Total: 10
+2021-12-19 14:25:49 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM returnsupplier 
+2021-12-19 14:25:49 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-19 14:25:49 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,dname,dcount,sname,buytime,reason,createtime FROM returnsupplier LIMIT ?,? 
+2021-12-19 14:25:49 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-19 14:25:49 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.j.drug.mapper.ReturnsupplierMapper.selectPage : 143 ] -
+                <==      Total: 1

@@ -1,0 +1,160 @@
+2021-12-16 10:24:13 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 55 ] -
+                Starting DrugApplication using Java 11.0.11 on LAPTOP-4MVI9LIV with PID 9668 (D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统\target\classes started by A in D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统)
+2021-12-16 10:24:13 [ restartedMain ] ------------------ [ DEBUG ] [ com.javaclimb.drug.DrugApplication : 56 ] -
+                Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-12-16 10:24:13 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 660 ] -
+                No active profile set, falling back to default profiles: default
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.User",So @TableField annotation will not work!
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] -
+                Starting service [Tomcat]
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] -
+                Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring embedded WebApplicationContext
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Billinfo",So @TableField annotation will not work!
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Druginfo",So @TableField annotation will not work!
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Owinfo",So @TableField annotation will not work!
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Problem",So @TableField annotation will not work!
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returngoods",So @TableField annotation will not work!
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returnsupplier",So @TableField annotation will not work!
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Saleinfo",So @TableField annotation will not work!
+2021-12-16 10:24:15 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Supplier",So @TableField annotation will not work!
+2021-12-16 10:24:16 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Starting ProtocolHandler ["http-nio-8080"]
+2021-12-16 10:24:16 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 61 ] -
+                Started DrugApplication in 2.762 seconds (JVM running for 3.895)
+2021-12-16 10:24:26 [ http-nio-8080-exec-1 ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-16 10:24:27 [ http-nio-8080-exec-1 ] ------------------ [ WARN  ] [ org.apache.catalina.util.SessionIdGeneratorBase : 173 ] -
+                Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [484] milliseconds.
+2021-12-16 10:24:32 [ http-nio-8080-exec-1 ] ------------------ [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 106 ] -
+                {dataSource-1} inited
+2021-12-16 10:24:32 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-16 10:24:32 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-16 10:24:32 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-16 10:24:37 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-16 10:24:37 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-16 10:24:37 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-16 10:24:37 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-16 10:24:37 [ http-nio-8080-exec-6 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 4
+2021-12-16 10:24:39 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectById : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo WHERE id=? 
+2021-12-16 10:24:39 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectById : 143 ] -
+                ==> Parameters: 2(Integer)
+2021-12-16 10:24:39 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectById : 143 ] -
+                <==      Total: 1
+2021-12-16 10:24:39 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier 
+2021-12-16 10:24:39 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==> Parameters: 
+2021-12-16 10:24:39 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                <==      Total: 3
+2021-12-16 10:24:43 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.updateById : 143 ] -
+                ==>  Preparing: UPDATE druginfo SET name=?, supplier=?, producttime=?, warrenty=?, number=?, price=?, stock=? WHERE id=? 
+2021-12-16 10:24:43 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.updateById : 143 ] -
+                ==> Parameters: 感冒灵(String), 云南白药(String), 2021-11-26 00:00:00.0(Timestamp), 24(String), 1001(String), 22.5(Float), 50(Integer), 2(Integer)
+2021-12-16 10:24:43 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.updateById : 143 ] -
+                <==    Updates: 1
+2021-12-16 10:24:43 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-16 10:24:43 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-16 10:24:43 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-16 10:24:43 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-16 10:24:43 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 4
+2021-12-16 10:28:08 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 55 ] -
+                Starting DrugApplication using Java 11.0.11 on LAPTOP-4MVI9LIV with PID 11152 (D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统\target\classes started by A in D:\springboot医院管理系统自制\医院药品管理系统\医院管理系统)
+2021-12-16 10:28:08 [ restartedMain ] ------------------ [ DEBUG ] [ com.javaclimb.drug.DrugApplication : 56 ] -
+                Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-12-16 10:28:08 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 660 ] -
+                No active profile set, falling back to default profiles: default
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.User",So @TableField annotation will not work!
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] -
+                Starting service [Tomcat]
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] -
+                Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring embedded WebApplicationContext
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Billinfo",So @TableField annotation will not work!
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Druginfo",So @TableField annotation will not work!
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Owinfo",So @TableField annotation will not work!
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Problem",So @TableField annotation will not work!
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returngoods",So @TableField annotation will not work!
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Returnsupplier",So @TableField annotation will not work!
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Saleinfo",So @TableField annotation will not work!
+2021-12-16 10:28:10 [ restartedMain ] ------------------ [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 333 ] -
+                This "id" is the table primary key by @TableId annotation in Class: "com.javaclimb.drug.entity.Supplier",So @TableField annotation will not work!
+2021-12-16 10:28:11 [ restartedMain ] ------------------ [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] -
+                Starting ProtocolHandler ["http-nio-8080"]
+2021-12-16 10:28:11 [ restartedMain ] ------------------ [ INFO  ] [ com.javaclimb.drug.DrugApplication : 61 ] -
+                Started DrugApplication in 2.666 seconds (JVM running for 3.86)
+2021-12-16 10:28:18 [ http-nio-8080-exec-1 ] ------------------ [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-16 10:28:18 [ http-nio-8080-exec-1 ] ------------------ [ WARN  ] [ org.apache.catalina.util.SessionIdGeneratorBase : 173 ] -
+                Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [458] milliseconds.
+2021-12-16 10:28:24 [ http-nio-8080-exec-1 ] ------------------ [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 106 ] -
+                {dataSource-1} inited
+2021-12-16 10:28:24 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==>  Preparing: SELECT id,username,password FROM user WHERE (username = ?) 
+2021-12-16 10:28:24 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                ==> Parameters: zta(String)
+2021-12-16 10:28:24 [ http-nio-8080-exec-1 ] ------------------ [ DEBUG ] [ com.javaclimb.drug.mapper.UserMapper.selectOne : 143 ] -
+                <==      Total: 1
+2021-12-16 10:28:28 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo 
+2021-12-16 10:28:28 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 
+2021-12-16 10:28:28 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo LIMIT ?,? 
+2021-12-16 10:28:28 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: 0(Long), 10(Long)
+2021-12-16 10:28:28 [ http-nio-8080-exec-5 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 4
+2021-12-16 10:28:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==>  Preparing: SELECT id,name,content,createtime FROM supplier 
+2021-12-16 10:28:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                ==> Parameters: 
+2021-12-16 10:28:29 [ http-nio-8080-exec-8 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.SupplierMapper.selectList : 143 ] -
+                <==      Total: 3
+2021-12-16 10:28:36 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT COUNT(1) FROM druginfo WHERE (name LIKE ?) 
+2021-12-16 10:28:36 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: %药%(String)
+2021-12-16 10:28:36 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==>  Preparing: SELECT id,name,supplier,producttime,warrenty,number,price,stock FROM druginfo WHERE (name LIKE ?) LIMIT ?,? 
+2021-12-16 10:28:36 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                ==> Parameters: %药%(String), 0(Long), 10(Long)
+2021-12-16 10:28:36 [ http-nio-8080-exec-10 ] ------------------ [ DEBUG ] [ c.javaclimb.drug.mapper.DruginfoMapper.selectPage : 143 ] -
+                <==      Total: 2
